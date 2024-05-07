@@ -28,7 +28,9 @@ public class Recorrido {
         this.formaDeReaccionar = formaDeReaccionar;
         this.trayecto = new ArrayList<>();
     }
-
+    public void reaccionarAccidente(){
+        this.formaDeReaccionar.reaccionar(this.getCuidadoresConfirmados(),this.getTranseunte());
+    }
     public double calcularTiempoRecorrido(Tiempo calculador){
         if(this.isDetencionParada()){
            return this.calcularTiempoTrayecto(calculador);

@@ -11,10 +11,18 @@ public class Persona {
     private boolean aceptaNotificaciones;
 
 
-
-
     public int getEdad(){
-        return
+        LocalDate fechaActual = LocalDate.now();
+        Period diferencia = Period.between(this.getFechaNacimiento(), fechaActual);
+        return diferencia.getYears();
+    }
+
+    public boolean isAceptaNotificaciones() {
+        return aceptaNotificaciones;
+    }
+
+    public void setAceptaNotificaciones(boolean aceptaNotificaciones) {
+        this.aceptaNotificaciones = aceptaNotificaciones;
     }
 
     public LocalDate getFechaNacimiento() {
