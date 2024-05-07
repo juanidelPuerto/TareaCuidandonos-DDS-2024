@@ -9,7 +9,9 @@
 #### Utilizamos el patrón Strategy en el punto 7 para encapsular las distintas formas de reaccionar frente a un incidente en diferentes clases, 
 #### y por su extensibilidad para poder agregar nuevas formas de reaccionar, si es que surgen en un futuro, como indicaba el enunciado.
 
-![Diagrama Clases - Cuidandonos (1)](https://github.com/juanidelPuerto/TareaCuidandonos-DDS-2024/assets/63317041/ba6111e1-811a-4907-8b20-ec629f424ef5)
+![Diagrama de Clases-Cuidandonos](https://github.com/juanidelPuerto/TareaCuidandonos-DDS-2024/blob/main/Diagrama%20Clases%20-%20Cuidandonos%20(2).jpeg)
+
+##### Nota: El codigo es a modo de ejemplo para representar el uso de los patrones en el modelado.
 
 
 
